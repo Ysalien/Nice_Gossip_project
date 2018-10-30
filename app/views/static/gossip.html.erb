@@ -1,0 +1,13 @@
+<h1 class="title">Gossip <%= params[:id]%></h1>
+
+<div class="cardbox">
+<div class="card border-light mb-3" style="max-width: 18rem;">
+  <div class="card-header">Gossip n°<%= @gossip.id%></div>
+  <div class="card-body">
+    <h5 class="card-title"><%= @gossip.author %></h5>
+    <p class="card-text"><%= @gossip.content%></p>
+    <p class="card-time">Date : <%= @gossip.created_at%></p>
+  </div>
+</div>
+</div>
+<p class="backhome"><a href="/">🔙</a></p>

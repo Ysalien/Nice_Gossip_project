@@ -1,0 +1,14 @@
+<h1 class="title">The Gossip Project</h1>
+<p><div class="welcome">Bienvenue <%= params[:name]%> dans le monde du Gossip</div></p>
+
+<% @gossip.each.with_index(1) do |gossip, index| %>
+<div class="cardbox">
+<div class="card border-light mb-3" style="max-width: 18rem;">
+  <div class="card-header"><a href="/gossip/<%= index%>">Gossip n°<%= gossip.id%></a></div>
+  <div class="card-body">
+    <h5 class="card-title"><%= gossip.author %></h5>
+    <p class="card-text"><%= gossip.content%></p>
+  </div>
+</div>
+</div>
+<% end %>
