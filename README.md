@@ -1,24 +1,15 @@
-# README
+## Nice Gossip Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Première app réalisé avec PostgreSQL et mise en ligne sur Heroku : https://nice-gossip-project.herokuapp.com/
 
-Things you may want to cover:
+Le site permet de visualiser des gossips (model Gossip seedé avec Faker).
+Une navbar permet une redirection sur la page home elle-même, vers la page contact et la page Team.
+Chaque titre de gossip est cliquable et permet de consulter le gossip sur une page qui lui est propre.
 
-* Ruby version
+Ce magnifique design a été réalisé en css et bootstrap (navbar et card).
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#####NB
+Pour checker le model : db
+Pour checker le controller : app > controllers
+Pour checker les routes : config
+Pour checker les views : app > views > static
